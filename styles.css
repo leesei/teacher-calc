@@ -20,3 +20,13 @@
 	font-size: 4rem;
 	font-weight: bolder;
 }
+
+.right {
+	position: absolute;
+	right: 0px;
+	margin-right: 10px;
+}
+
+.github-fork-ribbon.right-bottom:before {
+	background-color: #333;
+}
