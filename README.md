@@ -1,6 +1,6 @@
 # Teacher's Calculator
 
-This is a handy for calculating scores for homework and papers.
+This is handy for calculating homework and exam scores.
 
 Features:
 - summation and deduction mode
