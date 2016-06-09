@@ -1,0 +1,22 @@
+#reset {
+	margin-bottom: 5px;
+	display: block;
+}
+
+#scores input {
+	width: 18%;
+	font-size: 2rem;
+}
+
+.deduct {
+	display: none;
+}
+
+.padding {
+	padding: 0 5px;
+}
+
+.result {
+	font-size: 4rem;
+	font-weight: bolder;
+}

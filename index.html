@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Teacher's Calculator</title>
+</head>
+
+<body>
+  <form>
+    <!-- to capture enter key -->
+    <input type="submit" onclick="return false;" style="display:none" />
+    <!-- <span class="padding"></span> -->
+    Deduction Mode <input type="checkbox" id="deduction">
+    <span class="deduct">
+      <input id="fullmark" type="number" value="100">
+    </span>
+    <fieldset id="scores">
+      <legend>Scores <span class="deduct"> (deduct)</span></legend>
+      <button id="reset">Reset</button>
+      <input type="number" value="0">
+      <input type="number" value="0">
+      <input type="number" value="0">
+      <input type="number" value="0">
+      <input type="number" value="0">
+    </fieldset>
+  </form>
+  <div id="result" class="result"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
